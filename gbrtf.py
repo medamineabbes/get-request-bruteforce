@@ -16,7 +16,7 @@ def tryone(url,word,s,f):
 parser = argparse.ArgumentParser()
 parser.add_argument('-u',type=str,help='url with {} signe',required=True)
 parser.add_argument('-w',type=str,help='wordlist',required=True)
-parser.add_argument('-v',type=bool,help='verbous True or False',default=False)
+parser.add_argument('-v',type=bool,help='verbose True or False',default=False)
 parser.add_argument('-s',type=str,help='index of seccess',default='successful')
 parser.add_argument('-f',type=str,help='index of failure',default='failed')
 args=parser.parse_args()
